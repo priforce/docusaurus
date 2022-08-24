@@ -220,3 +220,11 @@ div[class^='announcementBar_'] {
   padding: 0 var(--ifm-pre-padding);
   border-left: 3px solid #ff000080;
 }
+
+[data-rmiz-modal-overlay='visible'] {
+  background-color: rgba(255 255 255 / 95%);
+}
+
+[data-theme='dark'] [data-rmiz-modal-overlay='visible'] {
+  background-color: rgba(0 0 0 / 95%);
+}
